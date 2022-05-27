@@ -7,14 +7,14 @@
     },
     "date": { "dateTime": {
       "min": "2010-01-01T00:00:00Z",
-      "max": ""
+      "max": "2023-01-01T00:00:00Z"
     } }
   },
   "Comment": {
     "body": { "string": {} },
     "date": { "dateTime": {
       "min": "2010-01-01T00:00:00Z",
-      "max": ""
+      "max": "2023-01-01T00:00:00Z"
     } },
     "post": {
       "belongsTo": "Post"
