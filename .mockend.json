@@ -5,11 +5,11 @@
     "comments": {
       "hasMany": "Comment"
     },
-    "date": { "date": {} }
+    "date": { "dateTime": {} }
   },
   "Comment": {
     "body": { "string": {} },
-    "date": { "date": {} },
+    "date": { "dateTime": {} },
     "post": {
       "belongsTo": "Post"
     }
