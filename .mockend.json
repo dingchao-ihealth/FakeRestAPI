@@ -5,11 +5,17 @@
     "comments": {
       "hasMany": "Comment"
     },
-    "date": { "dateTime": {} }
+    "date": { "dateTime": {
+      "min": "2010-01-01T00:00:00Z",
+      "max": ""
+    } }
   },
   "Comment": {
     "body": { "string": {} },
-    "date": { "dateTime": {} },
+    "date": { "dateTime": {
+      "min": "2010-01-01T00:00:00Z",
+      "max": ""
+    } },
     "post": {
       "belongsTo": "Post"
     }
