@@ -1,12 +1,15 @@
 {
   "Post": {
     "title": { "string": {} },
+    "summary": { "string": {} },
     "comments": {
       "hasMany": "Comment"
-    }
+    },
+    "date": { "date": {} }
   },
   "Comment": {
     "body": { "string": {} },
+    "date": { "date": {} },
     "post": {
       "belongsTo": "Post"
     }
